@@ -34,4 +34,4 @@
 * 3> definir le chemin par des objets du reel
 * 4> spectateur puisse detruire des objects negatifs
 * 4> bouton ascenceur pour voir du quasi ciel
-* 4 extension> cf encore web scokets
+* 4> cf encore web scokets
