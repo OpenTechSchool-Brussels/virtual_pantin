@@ -13,22 +13,25 @@
 * e.g. eviter objets
 * e.g. un embranchement a choisir
 * e.g. 4 choix avec mouvement en pause
-* quelques rappels du context e.g. verres
+*  quelques rappels du context e.g. verres
+
+!MVP
 * 1> modelisation Pantin
 * 2> creer systeme de deplacement sur un chemin
 * (tableau de points successifs)
 * angle de camera -> position au temps t+1 sur cette suite de points successifs
+* 2> cone de vision le plus proche du centre vitesse max, le en dehors vitesse min
 * 3> action pause puis choix options
 * 4> action embranchement
 * 5> action eviter objets / approcher objets
-* Extension++
+* 6> utiliser le 5 pour demarrer l'experience
+
+!Extension++
 * 1> Kinect pour transformer visiteurs en objets a eviter
 * 2> projeter ou est la personne en train de regarder
 * (revoir les websockets)
 * Pour la modelisation et l'import voir http://threejs.org/examples/webgl_loader_stl.html
-* 6> utiliser le 5 pour demarrer l'experience
-* 3 (extension)> definir le chemin par des objets du reel
-* 2> cone de vision le plus proche du centre vitesse max, le en dehors vitesse min
-* 4 extension> spectateur puisse detruire des objects negatifs
-* 4 extension> bouton ascenceur pour voir du quasi ciel
+* 3> definir le chemin par des objets du reel
+* 4> spectateur puisse detruire des objects negatifs
+* 4> bouton ascenceur pour voir du quasi ciel
 * 4 extension> cf encore web scokets
